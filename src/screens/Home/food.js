@@ -14,9 +14,9 @@ function FoodItem(props) {
           <i className="fas fa-star c-white fs-5" aria-hidden="true"></i>
           <i className="fas fa-star c-white fs-5" aria-hidden="true"></i>
         </div>
-        <p className="txt40">{props.item.description.split('\n').map(function(item) {return(<span>{item}<br/></span>)})}</p>
+        <p className="txt40">{props.item.description.split('\n').map(function (item) { return (<span>{item}<br /></span>) })}</p>
 
-        <hr/>
+        <hr />
 
         <p className="txt43">{'Speaking on:'}</p>
         <p className="txt40">{props.item.speakingon}</p>
@@ -38,14 +38,14 @@ export default class Food extends React.Component {
         <div className="container-fluid">
           <div className="row">
             {
-              FOODS.map((item, key)=>(
-                <FoodItem 
-                  key={key} 
+              FOODS.map((item, key) => (
+                <FoodItem
+                  key={key}
                   item={item}
                 />
               ))
             }
-            </div>
+          </div>
         </div>
       </div>
     )
