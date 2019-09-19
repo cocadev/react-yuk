@@ -1031,6 +1031,26 @@ input[type="date" i] {
   color: #fff;
 }
 
+.btn6 {
+  background: #3b5998;
+  border-radius: 2px;
+}
+
+.btn7 {
+  background: #55acee;
+  border-radius: 2px;
+}
+
+.btn8 {
+  background: #ef3652;
+  border-radius: 2px;
+  width: 110px;
+  height: 50px;
+  color: #fff;
+  margin-right: 20px
+}
+
+
 
 /*[ Intro ]
 ///////////////////////////////////////////////////////////
@@ -1668,3 +1688,78 @@ body {padding-right: 0px !important;}
   height: 70px;
   margin: 0 5px
 }
+
+.loginText {
+  color: #fff;
+  font-size: 17px;
+  font-family: Montserrat-Regular;
+  font-weight: '300'
+}
+.loginText:hover {
+  color:red;
+  cursor: pointer;
+}
+
+.myInput {
+  border: 2px solid #07CC7A;
+  color: #000;
+  height: 30px;
+  background-color: #fff
+}
+
+.my-input-border {
+  margin-top: -10px;
+  border: 1px solid #ededed;  
+  color: #000;
+  height: 32px;
+  background-color: #fff
+}
+
+.hr0 {
+  display: block;
+  width: '100%';
+  height: 1px;
+  background: #ededed
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row
+}
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clear-both {
+  clear: both;
+}
+.ft10 { font-size: 10px; }
+.ft11 { font-size: 11px; }
+.ft12 { font-size: 12px; }
+.ft13 { font-size: 13px; }
+.ft14 { font-size: 14px; }
+.ft15 { font-size: 15px; }
+.ft16 { font-size: 16px; }
+.ft17 { font-size: 17px; }
+.ft18 { font-size: 18px; }
+.ft19 { font-size: 19px; }
+.ft20 { font-size: 20px; }
+.ft21 { font-size: 21px; }
+.ft22 { font-size: 22px; }
+.ft23 { font-size: 23px; }
+.ft24 { font-size: 24px; }
+.ft25 { font-size: 25px; }
+.ft26 { font-size: 26px; }
+.ft27 { font-size: 27px; }
+.ft28 { font-size: 28px; }
+.ft29 { font-size: 29px; }
+.ft30 { font-size: 30px; }
+.ft31 { font-size: 31px; }
+.ft32 { font-size: 32px; }
+.ft33 { font-size: 33px; }
+.ft34 { font-size: 34px; }
+.ft35 { font-size: 35px; }
+.ft36 { font-size: 36px; }

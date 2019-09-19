@@ -3405,8 +3405,8 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt39 {
 	font-family: Montserrat;
-	font-weight: 400;
-	font-size: 15px;
+	font-weight: 600;
+	font-size: 20px;
 	color: white;
 }
 
@@ -3414,6 +3414,13 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 400;
 	font-size: 12px;
+	color: white;
+}
+
+.txt43 {
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 14px;
 	color: white;
 }
 
@@ -3639,6 +3646,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	background-color: #AB46D8
 }
 
+.size42 {
+	height: 48px;
+	margin-bottom: 14px
+}
+
 /*[ Background Color ]
 -----------------------------------------------------------
 */
@@ -3666,6 +3678,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 
 .bo7 {border: 2px solid #e6e6e6;}
 .bo8 {border: 5px solid white;}
+.bo9 {border: 1px solid #ededed;}
 
 
 /* ------------------------------------ */
@@ -3925,7 +3938,18 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 }
 
 .foodImg {
-	width: 100%;
-	height: auto;
+	padding: 0em 0em 100%; 
+	background-size: cover; 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-attachment: scroll; 
+	/* background-image: url("//d24wuq6o951i2g.cloudfront.net/img/events/id/346/3467431/assets/679.fullaccessnyc.jpg");  */
+	border-radius: 0%; 
+	margin-bottom: 0%; 
+	width: 100%; 
+	border-style: none; 
+	border-width: 0px 1px 0px 0px; 
+	border-color: rgb(255, 255, 255); 
+	min-height: 458px;
 }
 
