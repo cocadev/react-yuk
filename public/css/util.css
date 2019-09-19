@@ -2245,6 +2245,7 @@
 .c-brown {color: #72344D;}
 .c-blue {color: #1f1feb;}
 .c-main {color: #ef3652;}
+.c-45 {color: #454545;}
 
 .c-hov-white:hover {color: white;}
 
@@ -3677,6 +3678,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .bo1 {border: 1px solid #ebebeb;}
 .bo2 {border: 2px solid #d9d9d9;}
 .bo4 {border: 4px solid #ec1d25;}
+
 
 .bo5-b {border-bottom: 1px solid #e6e6e6;}
 .bo5-r {border-right: 1px solid #e6e6e6;}

@@ -1053,6 +1053,15 @@ input[type="date" i] {
   margin-right: 20px
 }
 
+.btn9 {
+  background: #ef3652;
+  border-radius: 2px;
+  width: 170px;
+  height: 40px;
+  color: #fff;
+}
+
+
 
 
 /*[ Intro ]
@@ -1724,6 +1733,20 @@ body {padding-right: 0px !important;}
   height: 1px;
   background: #ededed
 }
+
+.membership {
+  border: 0.5px solid #ededed;
+  border-radius: 2px;
+  
+}
+
+
+
+
+
+
+
+
 
 .flex-row {
   display: flex;

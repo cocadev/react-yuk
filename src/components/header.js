@@ -84,10 +84,8 @@ export default class Header extends React.Component {
                                 <button type="submit" className="btn7 flex-c-m size42 txt11 trans-0-4 m-r-5">
                                     <i className="fab fa-twitter c-white m-r-15 ft24" aria-hidden="true"></i>
                                     Log in with Twitter
-						    </button>
-
+						        </button>
                             </div>
-
                         </div>
 
                         <div className="m-t-20 flex-c-m m-b-10">
