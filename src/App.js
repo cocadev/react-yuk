@@ -3,6 +3,8 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Notfound from './screens/notfound';
 import Home from './screens/Home';
 import Business from './screens/Business';
+import Header from './components/header';
+import Footer from './components/footer';
 
 
 class App extends React.Component {
@@ -11,16 +13,13 @@ class App extends React.Component {
     return (
       <Router>
         <div className='animsition'>
-
+          <Header />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/add-business" component={Business} />
-
-            {/* <Route exact path="/learn" component={Learn} /> */}
-            {/* <Route path="/about" component={About} /> */}
             <Route component={Notfound} />
           </Switch>
-
+          <Footer />
 
         </div>
       </Router>

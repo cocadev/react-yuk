@@ -6,8 +6,8 @@ import Modal from 'react-modal';
 function MenuItem(props) {
     return (
         <li>
-            {props.title === 'login' && <Link onClick={() => props.onClick()}>{props.title}</Link>}
-            {props.title !== 'login' && <Link to={props.path ? props.path : '/'}>{props.title}</Link>}
+            {props.title === 'login' && <Link to='#' onClick={() => props.onClick()}>{props.title}</Link>}
+            {props.title !== 'login' && <Link to={props.path}>{props.title}</Link>}
         </li>
     )
 }
@@ -46,12 +46,12 @@ export default class Header extends React.Component {
                             <div className="wrap_menu p-l-45 p-l-0-xl">
                                 <nav className="menu">
                                     <ul className="main_menu">
-                                        <MenuItem title={'explore'} />
-                                        <MenuItem title={'learn'} />
-                                        <MenuItem title={'blog'} />
+                                        <MenuItem title={'explore'} path={'/'}/>
+                                        <MenuItem title={'learn'} path={'/'}/>
+                                        <MenuItem title={'blog'} path={'/'}/>
                                         <MenuItem title={'add your business'} path={'/add-business'}/>
                                         <MenuItem title={'login'} onClick={() => this.openModal()} />
-                                        <MenuItem title={'sign up'} />
+                                        <MenuItem title={'sign up'} path={'/'}/>
                                     </ul>
                                 </nav>
                             </div>
@@ -67,6 +67,7 @@ export default class Header extends React.Component {
                     isOpen={this.state.modalIsOpen}
                     onRequestClose={this.closeModal}
                     style={customStyles}
+                    ariaHideApp={false}
                     contentLabel="Example Modal"
                 >
                     <i className="fa fa-close float-right ft24" aria-hidden="true" onClick={this.closeModal}></i>

@@ -6,7 +6,9 @@ function FoodItem(props) {
     <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-t-10">
       <div className="foodImg" style={{ backgroundImage: `url(${props.item.image})` }}></div>
       <div className="bgpurple p-l-10 p-t-10 p-b-10 p-r-10">
+
         <p className="txt39">{props.item.title}</p>
+
         <div>
           <i className="fas fa-star c-white fs-5" aria-hidden="true"></i>
           <i className="fas fa-star c-white fs-5" aria-hidden="true"></i>
@@ -14,7 +16,10 @@ function FoodItem(props) {
           <i className="fas fa-star c-white fs-5" aria-hidden="true"></i>
           <i className="fas fa-star c-white fs-5" aria-hidden="true"></i>
         </div>
-        <p className="txt40">{props.item.description.split('\n').map(function (item) { return (<span>{item}<br /></span>) })}</p>
+
+        <p className="txt40">
+          {props.item.description.split('\n').map(function (item, index) { return (<span key={index}>{item}<br /></span>) })}
+        </p>
 
         <hr />
 
@@ -38,9 +43,9 @@ export default class Food extends React.Component {
         <div className="container-fluid">
           <div className="row">
             {
-              FOODS.map((item, key) => (
+              FOODS.map((item, index) => (
                 <FoodItem
-                  key={key}
+                  key={index}
                   item={item}
                 />
               ))
