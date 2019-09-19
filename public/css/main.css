@@ -821,6 +821,9 @@ input[type="date" i] {
 .item-slick1 {
   height: 100vh;
 }
+.item-slick2 {
+  height: 40vh;
+}
 
 .arrow-slick1, .arrow-slick2, .arrow-slick3 {
   display: -webkit-box;

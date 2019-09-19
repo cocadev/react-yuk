@@ -2244,6 +2244,7 @@
 .c-red {color: #fa538c;}
 .c-brown {color: #72344D;}
 .c-blue {color: #1f1feb;}
+.c-main {color: #ef3652;}
 
 .c-hov-white:hover {color: white;}
 
@@ -3421,6 +3422,12 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 600;
 	font-size: 14px;
+	color: white;
+}
+.txt45 {
+	font-family: Courgette;
+	font-size: 32px;
+	line-height: 1.1;
 	color: white;
 }
 
