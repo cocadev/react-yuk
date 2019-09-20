@@ -40,106 +40,106 @@ export default class Header extends React.Component {
         this.setState({ modalIsOpen: false, check: 0 });
     }
 
-    loginView(){
-        return(
+    loginView() {
+        return (
             <div className='p-20'>
-                        <p className="ft20">Login</p>
+                <p className="ft20">Login</p>
 
-                        <div className="m-t-20">
-                            <p className="ft13">Use a social account for faster login or easy registration.</p>
-                            <div className="flex-col m-t-12">
-                                <button type="submit" className="btn6 flex-c-m size42 txt11 trans-0-4 m-r-5">
-                                    <i className="fab fa-facebook c-white m-r-15 ft30" aria-hidden="true"></i>
-                                    Log in with Facebook
+                <div className="m-t-20">
+                    <p className="ft13">Use a social account for faster login or easy registration.</p>
+                    <div className="flex-col m-t-12">
+                        <button type="submit" className="btn6 flex-c-m size42 txt11 trans-0-4 m-r-5">
+                            <i className="fab fa-facebook c-white m-r-15 ft30" aria-hidden="true"></i>
+                            Log in with Facebook
 						        </button>
-                                <button type="submit" className="btn7 flex-c-m size42 txt11 trans-0-4 m-r-5">
-                                    <i className="fab fa-twitter c-white m-r-15 ft24" aria-hidden="true"></i>
-                                    Log in with Twitter
+                        <button type="submit" className="btn7 flex-c-m size42 txt11 trans-0-4 m-r-5">
+                            <i className="fab fa-twitter c-white m-r-15 ft24" aria-hidden="true"></i>
+                            Log in with Twitter
 						        </button>
-                            </div>
-                        </div>
-
-                        <div className="m-t-20 flex-c-m m-b-10">
-                            <div className='hr0 sizefull m-r-15'></div>
-                            <div className='ft14'> or </div>
-                            <div className='hr0 sizefull m-l-15'></div>
-                        </div>
-                        <p className="ft13">Username or email address <span className="required">*</span></p>
-
-                        <div className="my-input-border">
-                            <input type="text" className="myInput sizefull p-l-5" />
-                        </div>
-
-                        <p className="ft13 m-t-15">Password <span className="required">*</span></p>
-
-                        <div className="my-input-border">
-                            <input type="password" className="myInput sizefull p-l-5" />
-                        </div>
-
-                        <div className="flex-m m-t-22 m-l-2">
-                            <button type="submit" className="btn8 flex-c-m trans-0-4">
-                                Login
-						    </button>
-                            <div className="flex-c">
-                                <input className="" name="rememberme" type="checkbox" id="rememberme" value="forever" />
-                                <p className='ft13'>Remember me</p>
-                            </div>
-                        </div>
-
-                        <div className="m-t-15 flex-row">
-                            <div className='c-red ft13'>Register</div>&nbsp;|&nbsp;
-				            <div className='c-red ft13'>Lost your password?</div>
-                        </div>
                     </div>
+                </div>
+
+                <div className="m-t-20 flex-c-m m-b-10">
+                    <div className='hr0 sizefull m-r-15'></div>
+                    <div className='ft14'> or </div>
+                    <div className='hr0 sizefull m-l-15'></div>
+                </div>
+                <p className="ft13">Username or email address <span className="required">*</span></p>
+
+                <div className="my-input-border">
+                    <input type="text" className="myInput sizefull p-l-5" />
+                </div>
+
+                <p className="ft13 m-t-15">Password <span className="required">*</span></p>
+
+                <div className="my-input-border">
+                    <input type="password" className="myInput sizefull p-l-5" />
+                </div>
+
+                <div className="flex-m m-t-22 m-l-2">
+                    <button type="submit" className="btn8 flex-c-m trans-0-4">
+                        Login
+						    </button>
+                    <div className="flex-c">
+                        <input className="" name="rememberme" type="checkbox" id="rememberme" value="forever" />
+                        <p className='ft13'>Remember me</p>
+                    </div>
+                </div>
+
+                <div className="m-t-15 flex-row">
+                    <div className='c-red ft13'>Register</div>&nbsp;|&nbsp;
+				            <div className='c-red ft13'>Lost your password?</div>
+                </div>
+            </div>
         )
     }
 
-    signUpView(){
-        return(
+    signUpView() {
+        return (
             <div className='p-20'>
-                        <p className="ft20">Register</p>
+                <p className="ft20">Register</p>
 
-                        <div className="m-t-20">
-                            <p className="ft13">Use a social account for faster login or easy registration.</p>
-                        </div>
+                <div className="m-t-20">
+                    <p className="ft13">Use a social account for faster login or easy registration.</p>
+                </div>
 
-                        <div className='flex-c'>
-                            <div className='m-r-10'>
-                                <p className="ft13">First Name</p>
-                                <div className="my-input-border">
-                                    <input type="text" className="myInput sizefull p-l-5" />
-                                </div>
-                            </div>
-                            <div className='m-l-10'>
-                                <p className="ft13">Last Name</p>
-                                <div className="my-input-border">
-                                    <input type="text" className="myInput sizefull p-l-5" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <p className="ft13 m-t-15">Email address <span className="required">*</span></p>
-
+                <div className='flex-c'>
+                    <div className='m-r-10'>
+                        <p className="ft13">First Name</p>
                         <div className="my-input-border">
                             <input type="text" className="myInput sizefull p-l-5" />
                         </div>
-
-                        <p className="ft13 m-t-15">Password <span className="required">*</span></p>
-
+                    </div>
+                    <div className='m-l-10'>
+                        <p className="ft13">Last Name</p>
                         <div className="my-input-border">
-                            <input type="password" className="myInput sizefull p-l-5" />
-                        </div>
-
-                        <div className="flex-m m-t-22 m-l-2">
-                            <button type="submit" className="btn8 flex-c-m trans-0-4">
-                                Register
-						    </button>
-                        </div>
-
-                        <div className="m-t-15">
-                            <div className='c-red ft13 cursor'>Login</div>
+                            <input type="text" className="myInput sizefull p-l-5" />
                         </div>
                     </div>
+                </div>
+
+                <p className="ft13 m-t-15">Email address <span className="required">*</span></p>
+
+                <div className="my-input-border">
+                    <input type="text" className="myInput sizefull p-l-5" />
+                </div>
+
+                <p className="ft13 m-t-15">Password <span className="required">*</span></p>
+
+                <div className="my-input-border">
+                    <input type="password" className="myInput sizefull p-l-5" />
+                </div>
+
+                <div className="flex-m m-t-22 m-l-2">
+                    <button type="submit" className="btn8 flex-c-m trans-0-4">
+                        Register
+						    </button>
+                </div>
+
+                <div className="m-t-15">
+                    <div className='c-red ft13 cursor'>Login</div>
+                </div>
+            </div>
         )
     }
 
@@ -165,8 +165,8 @@ export default class Header extends React.Component {
                                         <MenuItem title={'Blog'} path={'/'} />
                                         <MenuItem title={'Add Your Business'} path={'/add-business'} />
 
-                                        <LoginItem title={'Login'} onLogin={() => { this.openModal(); this.setState({ check : 1 })}} />
-                                        <LoginItem title={'Sign Up'} onLogin={() => { this.openModal(); this.setState({ check: 2 })}} />
+                                        <LoginItem title={'Login'} onLogin={() => { this.openModal(); this.setState({ check: 1 }) }} />
+                                        <LoginItem title={'Sign Up'} onLogin={() => { this.openModal(); this.setState({ check: 2 }) }} />
 
                                     </ul>
                                 </nav>
@@ -184,11 +184,11 @@ export default class Header extends React.Component {
                 >
                     <i className="fa fa-close float-right ft24" aria-hidden="true" onClick={this.closeModal}></i>
 
-                    { check === 1 && this.loginView()}
-                    { check === 2 && this.signUpView()}
+                    {check === 1 && this.loginView()}
+                    {check === 2 && this.signUpView()}
 
                 </Modal>
-  
+
 
             </header>
         )
