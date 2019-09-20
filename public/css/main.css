@@ -197,6 +197,10 @@ button:hover {
 	cursor: pointer;
 }
 
+.cursor:hover {
+	cursor: pointer;
+}
+
 iframe {
 	border: none !important;
 }
@@ -485,11 +489,11 @@ input[type="date" i] {
 .wrap-menu-header {
   position: absolute;
   width: 100%;
-  height: 120px;
+  height: 80px;
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid #ec1d25;
+  /* border-top: 1px solid #ec1d25; */
 }
 
 .wrap_header {
@@ -508,7 +512,7 @@ input[type="date" i] {
 
 .header-fixed .wrap-menu-header {
   position: fixed;
-  height: 100px;
+  height: 60px;
   background: rgba(255,255,255,0.9);
   box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
@@ -517,7 +521,7 @@ input[type="date" i] {
 -----------------------------------------------------------
 */
 .logo {
-  height: 50px;
+  height: 30px;
 }
 
 .logo > a{
@@ -556,8 +560,8 @@ input[type="date" i] {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .main_menu li {
@@ -572,13 +576,27 @@ input[type="date" i] {
   margin-right: 10px;
 }
 
+.menu-text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  /* text-transform: uppercase; */
+  color: white;
+  padding: 5px;
+}
+.menu-text:hover {
+  color: #ec1d25;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .main_menu > li > a {
   font-family: Montserrat;
   font-weight: 400;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 13px;
+  /* text-transform: uppercase; */
   color: white;
-  padding: 15px;
+  padding: 5px;
 }
 
 .header-fixed .main_menu > li > a {
@@ -696,11 +714,11 @@ input[type="date" i] {
   .social {padding-right: 0px;}
 
   .logo {
-    height: 45px;
+    height: 25px;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   .wrap_menu {
     display: none;
   }
