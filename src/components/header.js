@@ -13,7 +13,7 @@ function MenuItem(props) {
 function LoginItem(props) {
 	return (
 		<li onClick={() => props.onLogin()}>
-			<Link>{props.title}</Link>
+			<Link to='/'>{props.title}</Link>
 		</li>
 	);
 }
